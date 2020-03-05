@@ -1,0 +1,58 @@
+{
+  "id": "1609779",
+  "name": "rancher-ui",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "rancher-ui",
+  "glyphs": [
+    {
+      "icon_id": "1727566",
+      "name": "328退出全屏",
+      "font_class": "esc-fullscreen",
+      "unicode": "e8fa",
+      "unicode_decimal": 59642
+    },
+    {
+      "icon_id": "4570298",
+      "name": "英文",
+      "font_class": "yingwen",
+      "unicode": "ebe0",
+      "unicode_decimal": 60384
+    },
+    {
+      "icon_id": "4573742",
+      "name": "中文",
+      "font_class": "zhongwen",
+      "unicode": "ebe2",
+      "unicode_decimal": 60386
+    },
+    {
+      "icon_id": "5327484",
+      "name": "二维码",
+      "font_class": "qrcode",
+      "unicode": "e700",
+      "unicode_decimal": 59136
+    },
+    {
+      "icon_id": "5650911",
+      "name": "全屏",
+      "font_class": "fullscreen",
+      "unicode": "e62f",
+      "unicode_decimal": 58927
+    },
+    {
+      "icon_id": "7350866",
+      "name": "地球，国际化，语言切换",
+      "font_class": "international",
+      "unicode": "e676",
+      "unicode_decimal": 58998
+    },
+    {
+      "icon_id": "8765140",
+      "name": "用户名",
+      "font_class": "user",
+      "unicode": "e627",
+      "unicode_decimal": 58919
+    }
+  ]
+}

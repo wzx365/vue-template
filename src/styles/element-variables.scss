@@ -1,0 +1,67 @@
+/* Color
+-------------------------- */
+
+@import './variables.scss';
+
+/// color|1|Brand Color|0
+// $--color-primary: $theme !default;
+$--color-primary: #f67a17; //去掉 !default
+
+/// color|1|Background Color|4
+$--color-white: #FFFFFF !default;
+/// color|1|Background Color|4
+$--color-black: #000000 !default;
+$--color-primary-light-1: mix($--color-white, $--color-primary, 10%) !default; /* 53a8ff */
+$--color-primary-light-2: mix($--color-white, $--color-primary, 20%) !default; /* 66b1ff */
+$--color-primary-light-3: mix($--color-white, $--color-primary, 30%) !default; /* 79bbff */
+$--color-primary-light-4: mix($--color-white, $--color-primary, 40%) !default; /* 8cc5ff */
+$--color-primary-light-5: mix($--color-white, $--color-primary, 50%) !default; /* a0cfff */
+$--color-primary-light-6: mix($--color-white, $--color-primary, 60%) !default; /* b3d8ff */
+$--color-primary-light-7: mix($--color-white, $--color-primary, 70%) !default; /* c6e2ff */
+$--color-primary-light-8: mix($--color-white, $--color-primary, 80%) !default; /* d9ecff */
+$--color-primary-light-9: mix($--color-white, $--color-primary, 90%) !default; /* ecf5ff */
+
+$--color-primary-light-95: mix(#fff, $--color-primary, 95%);
+$--color-primary-dark-1: mix(#000, $--color-primary, 10%);
+$--color-primary-dark-2: mix(#000, $--color-primary, 20%);
+
+/// color|1|Functional Color|1
+$--color-success: #67C23A !default;
+/// color|1|Functional Color|1
+$--color-warning: #E6A23C !default;
+/// color|1|Functional Color|1
+$--color-danger: #F56C6C !default;
+/// color|1|Functional Color|1
+$--color-info: #909399 !default;
+
+/* 改变 icon 字体路径变量，必需 */
+$--font-path: '~element-ui/lib/theme-chalk/fonts';
+
+@import "~element-ui/packages/theme-chalk/src/index";
+
+.primay-color {
+  color: $--color-primary;
+}
+
+.bg-primay {
+  background-color: $--color-primary;
+}
+
+.hover-theme {
+  &:hover {
+    transition: all 0.3s;
+    color: $--color-primary;
+  }
+}
+
+.svg-icon {
+  width: 25px;
+  height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+.hover:hover {
+  transition: all 0.3s;
+  color: $--color-primary;
+}

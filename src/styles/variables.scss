@@ -1,0 +1,27 @@
+$red: #f56c6c; // 红色
+
+$theme: #409EFF; // 主题色
+
+$orange: #e6a23c; // 橙色
+
+$green: #67c23a; // 绿色
+
+$blue: #409EFF; // 蓝色
+
+$lightBlue: #ecf5ff; // 浅蓝色
+
+$invalid: #CBCFD6; // 失效时的颜色
+
+$black: #000000; // 黑色 页面强调
+$dark: #262A30; // 正文
+$xdGray: #5C626B; // 弱正文
+$dGray: #959BA3; // 辅助文字
+$gray: #CBCFD6; // 无效色，引导文字
+$lGray: #E9ECF0; // 边框，分割线
+$xlGray: #F7F8F9; // 背景色
+$white: #FFFFFF; // 白色
+
+:export {
+  theme: $theme;
+  white: $white
+}

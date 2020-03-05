@@ -1,0 +1,49 @@
+@import './variables.scss';
+ 
+@mixin clearfix {
+  &:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+}
+ 
+@mixin ellipsisLines($line: 2) {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: $line;
+}
+ 
+@mixin scrollBar {
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+    
+  ::-webkit-scrollbar-track {
+    border-left: none;
+  }
+    
+  ::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background: $dGray;
+ 
+    &:hover {
+      background: $gray;
+    }
+  }
+    
+  ::-webkit-scrollbar-button {
+    height: 0;
+    width: 0;
+  }
+    
+  ::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+}

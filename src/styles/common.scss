@@ -1,0 +1,87 @@
+@import './variables.scss';
+
+body {
+  height: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
+}
+
+.brand {
+  color: $blue;
+}
+
+.icon-fs {
+  font-size: 20px;
+}
+
+.el-form {
+  max-height: 450px;
+  overflow-y: auto;
+  padding-right: 30px;
+}
+
+.el-menu-item {
+  &.is-active {
+    color: $blue;
+    background-color: $lightBlue;
+  }
+}
+
+.el-dialog__wrapper .el-dialog__body {
+  padding-right: 0;
+}
+
+.el-loading-mask {
+  background-color: rgba(255, 255, 255, .5) !important;
+}
+
+.fs-20 {
+  font-size: 20px;
+}
+
+.clearfix {
+  &:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+}
+
+.refresh-btn {
+  margin-right: 20px !important;
+}
+
+.add-icon {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+  color: $blue;
+  cursor: pointer;
+}
+
+.center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.center-x {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.center-y {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
